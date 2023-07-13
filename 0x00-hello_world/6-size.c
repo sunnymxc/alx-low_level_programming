@@ -2,7 +2,7 @@
 /**
 * main - A program thst prints size
 *
-* Return 0 (Success)
+* Return: 0 (Success)
 */
 int main(void)
 {
@@ -11,11 +11,10 @@ int main(void)
 	long int c;
 	long int d;
 	float f;
-	
-	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
-	printf("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(b));
-	printf("Size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
-	printf("Size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
-	printf("Size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f));
-	return (0);
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+printf("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(b));
+printf("Size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
+printf("Size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
+printf("Size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f));
+return (0);
 }
